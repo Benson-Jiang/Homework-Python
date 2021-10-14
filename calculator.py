@@ -33,9 +33,15 @@ def calculator(num1, num2, operator):
 		elif operator == '*':
 			return num1 * num2
 		elif operator == '/':
-			return num1 / num2
+			if num2 == 0:
+				return False
+			else:
+				return num1 / num2
 		elif operator == '//':
-			return num1 // num2
+			if num2 == 0
+				return False
+			else:
+				return num1 // num2
 		elif operator == '**':
 			return num1 ** num2
 		else:
