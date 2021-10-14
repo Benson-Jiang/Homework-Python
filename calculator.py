@@ -38,7 +38,7 @@ def calculator(num1, num2, operator):
 			else:
 				return num1 / num2
 		elif operator == '//':
-			if num2 == 0
+			if num2 == 0:
 				return False
 			else:
 				return num1 // num2
