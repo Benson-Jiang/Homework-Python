@@ -1,6 +1,7 @@
 def tripler(func):
-	func()
-	func()
-	func()
-	return func()
+	def inner():
+		func()
+		func()
+		func()
+	return inner
 
